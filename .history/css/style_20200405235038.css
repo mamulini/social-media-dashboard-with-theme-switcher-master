@@ -1,0 +1,28 @@
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+    
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.followers_block{
+    display: flex;
+    justify-content: space-between;
+}
+
+.likes_counter{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }

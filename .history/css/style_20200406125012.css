@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+}
+
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+    
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.followers_block{
+    display: flex;
+    justify-content: space-between;
+}
+
+.folowers{
+    width: 250px;
+    height: 210px;
+    background: #e4e4e4;
+    border-top: 4px solid #000;
+    border-radius: 5px;
+}
+
+.likes_counter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.likes{
+    flex: 0 0 25%;
+    width: 250px;
+    height: 150px;
+    background: #e4e4e4;
+}
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
