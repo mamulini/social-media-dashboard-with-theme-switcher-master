@@ -246,13 +246,8 @@ body{
         padding: 20px 0 10px 15px;
         text-align: left;
         color: $text_blue;
-
         @media screen and (min-width: 801px) and (max-width: 870px){
             padding: 20px 0 10px 5px;
-        }
-
-        @media screen and (max-width: 800px ){
-            padding-left: 20px;
         }
     }
 
@@ -261,13 +256,8 @@ body{
         align-items: center;
         justify-content: flex-end;
         padding-right: 20px;
-
         @media screen and (min-width: 801px) and (max-width: 870px){
             padding-right: 5px;
-        }
-
-        @media screen and (max-width: 800px ){
-            padding-right: 20px;
         }
     }
 
@@ -278,10 +268,6 @@ body{
         padding-left: 15px;
         @media screen and (min-width: 801px) and (max-width: 870px){
             padding-left: 5px;
-        }
-
-        @media screen and (max-width: 800px ){
-            padding-left: 20px;
         }
     }
 
@@ -296,15 +282,9 @@ body{
         &--down{
             color: $bright_red;
         }
-    
         @media screen and (min-width: 801px) and (max-width: 870px){
             padding-right: 5px;
         }
-
-        @media screen and (max-width: 800px ){
-            padding-right: 20px;
-        }
-        
     }
 }
 

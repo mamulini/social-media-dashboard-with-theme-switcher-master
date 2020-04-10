@@ -29,10 +29,6 @@ body{
     @media screen and (max-width: 480px ) {
         width: 90%;
       }
-
-    @media screen and (min-width: 481px) and (max-width: 800px ) {
-        width: 85%;
-      }
     
 }
 
@@ -87,10 +83,6 @@ body{
         justify-content: center;
         align-items: center;
     }
-
-    @media screen and (max-width: 800px ) {
-        flex-wrap: wrap;
-    }
 }
 
 .followers{
@@ -111,11 +103,6 @@ body{
         margin-top: 20px;
         align-items: space-between;
       }
-
-    @media screen and (max-width: 800px ){
-        flex: 0 0 calc(50% - 25px);
-        margin-top: 25px;
-    }
 
     &:hover{
         background: #303755;
@@ -226,12 +213,6 @@ body{
         align-items: space-between;
 
       }
-    
-    @media screen and (max-width: 800px ){
-        flex: 0 0 calc(50% - 25px);
-        margin-top: 25px;
-        max-width: 500px;
-    }
 
     &:hover{
         background: #303755;
@@ -246,13 +227,8 @@ body{
         padding: 20px 0 10px 15px;
         text-align: left;
         color: $text_blue;
-
-        @media screen and (min-width: 801px) and (max-width: 870px){
+        @media screen and (min-width: 768px) and (max-width: 850px){
             padding: 20px 0 10px 5px;
-        }
-
-        @media screen and (max-width: 800px ){
-            padding-left: 20px;
         }
     }
 
@@ -261,13 +237,8 @@ body{
         align-items: center;
         justify-content: flex-end;
         padding-right: 20px;
-
-        @media screen and (min-width: 801px) and (max-width: 870px){
+        @media screen and (min-width: 768px) and (max-width: 850px){
             padding-right: 5px;
-        }
-
-        @media screen and (max-width: 800px ){
-            padding-right: 20px;
         }
     }
 
@@ -276,12 +247,8 @@ body{
         font-weight: 700;
         text-align-last: left;
         padding-left: 15px;
-        @media screen and (min-width: 801px) and (max-width: 870px){
+        @media screen and (min-width: 768px) and (max-width: 850px){
             padding-left: 5px;
-        }
-
-        @media screen and (max-width: 800px ){
-            padding-left: 20px;
         }
     }
 
@@ -296,15 +263,9 @@ body{
         &--down{
             color: $bright_red;
         }
-    
-        @media screen and (min-width: 801px) and (max-width: 870px){
+        @media screen and (min-width: 768px) and (max-width: 850px){
             padding-right: 5px;
         }
-
-        @media screen and (max-width: 800px ){
-            padding-right: 20px;
-        }
-        
     }
 }
 

@@ -252,7 +252,7 @@ body{
         }
 
         @media screen and (max-width: 800px ){
-            padding-left: 20px;
+            padding-left: 35px;
         }
     }
 
@@ -267,7 +267,7 @@ body{
         }
 
         @media screen and (max-width: 800px ){
-            padding-right: 20px;
+            padding-right: 35px;
         }
     }
 
@@ -281,7 +281,7 @@ body{
         }
 
         @media screen and (max-width: 800px ){
-            padding-left: 20px;
+            padding-left: 35px;
         }
     }
 
@@ -296,15 +296,9 @@ body{
         &--down{
             color: $bright_red;
         }
-    
         @media screen and (min-width: 801px) and (max-width: 870px){
             padding-right: 5px;
         }
-
-        @media screen and (max-width: 800px ){
-            padding-right: 20px;
-        }
-        
     }
 }
 
