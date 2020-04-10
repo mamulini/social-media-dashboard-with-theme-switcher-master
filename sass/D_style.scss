@@ -60,7 +60,8 @@ body{
 
     &__title{
         padding: 5px;
-        color: $text_blue
+        color: $text_blue;
+        text-transform: capitalize ;
     }
 }
 
