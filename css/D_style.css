@@ -62,7 +62,8 @@ body {
     .theme_switch {
       margin-top: 20px; } }
   .theme_switch__title {
-    padding: 5px; }
+    padding: 5px;
+    color: #8b97c6; }
 
 .title {
   padding-bottom: 20px; }
